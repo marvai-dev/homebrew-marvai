@@ -12,7 +12,7 @@ class Marvai < Formula
     # Basic build with version injection only
     ldflags = %W[
       -s -w
-      -X main.version=#{version}
+      -X main.Version=#{version}
     ]
 
     # Adjust to your actual main path if needed
