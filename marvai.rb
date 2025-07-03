@@ -3,7 +3,7 @@ class Marvai < Formula
   homepage "https://github.com/marvai-dev/marvai"
   url "https://github.com/marvai-dev/marvai/archive/refs/tags/v0.1.13.tar.gz"
   sha256 "c8af6c515206fadf2aa2dc4bf0652bd0b9a71682062079b1524120890b58f84f"
-  version "0.1.11"
+  version "0.1.13"
   license "MIT"
 
   depends_on "go" => :build
